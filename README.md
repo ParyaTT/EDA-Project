@@ -1,14 +1,37 @@
 [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# EDA (Exploratory Data Analysis) Project
 
-Template for creating ds simple projects
+This project uses data from housing prices, sales and conditions in King County, Seatle. 
 
-## Requirements
+The client is a buyer who would like to invest in poorer areas and make some profit while being socially responsible. 
+
+To assess whether that was possible and where it would be the best to do, a database of 21597 houses was used. 
+
+# Steps of the project 
+In this project, I took the following steps:
+
+## 1. Cleaning the data 
+1. Joining the databases for the sales and the houses
+2. Cleaning the data, dealing with outliers and discrepencies
+3. Developing hypotheses to be tested
+
+## 2. Testing the hypotheses
+1.  Determining the appreciation rate per zip code
+6. Identify the top 10 zip codes in the low-priced areas with highest appreciation rate
+6. Determining whether renovation has an impact on the price 
+7. Determining whether houses in poorer areas where in worse conditions or had poorer grades, requiring higher initial investment. 
+
+## 3. Presenting the results
+1. Visualising the results 
+2. Illustrating the findings using the visualisations
+
+
+# Requirements for this project 
 
 - pyenv
 - python==3.11.3
 
-## Setup
+# Setup for this project
 
 One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
 
